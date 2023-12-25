@@ -8,11 +8,11 @@ const { Content } = Layout;
 export const Home = observer(() => {
     return (
         <Content>
-            <Flex align="center" justify="center">
+            <Flex align="center" justify="center" vertical>
                 <UserInfo />
                 <ProgressBar />
+                <FoodList />
             </Flex>
-            <FoodList />
         </Content>
     );
 });

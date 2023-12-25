@@ -1,14 +1,10 @@
 import { ConfigProvider, Progress, Space } from "antd";
 import { observer } from "mobx-react-lite";
+import { eating } from "../store/eating";
+import { useEffect } from "react";
 export const ProgressBar = observer(() => {
-    const DAYPROTAINE = 110;
-    const DAYFAT = 100;
-    const DAYCARB = 150;
-    const DAYKKAL = 2846;
-    const eatedP = 51;
-    const eatedF = 220;
-    const eatedC = 130;
-    const eatedKK = 2030;
+    const todayEated = eating.eatedPFCK;
+    const DAYNORM = eating.DAYNORM;
     const setPercent = (val, dayVal) => {
         return (val / dayVal) * 100;
     };
@@ -17,7 +13,7 @@ export const ProgressBar = observer(() => {
             theme={{
                 components: {
                     Progress: {
-                        circleTextFontSize: "20px",
+                        circleTextFontSize: "14px",
                     },
                 },
             }}
@@ -26,27 +22,35 @@ export const ProgressBar = observer(() => {
                 <Progress
                     type="circle"
                     strokeColor="green"
-                    percent={setPercent(eatedP, DAYPROTAINE)}
-                    format={() => `Белки\n ${eatedP}/${DAYPROTAINE}`}
+                    size={70}
+                    percent={setPercent(todayEated.p, DAYNORM.DAYPROTAINE)}
+                    format={() =>
+                        `Белки\n ${todayEated.p}/${DAYNORM.DAYPROTAINE}`
+                    }
                 />
 
                 <Progress
                     type="circle"
                     strokeColor="yellow"
-                    percent={setPercent(eatedF, DAYFAT)}
-                    format={() => `Жиры\n ${eatedF}/${DAYFAT}`}
+                    size={70}
+                    percent={setPercent(todayEated.f, DAYNORM.DAYFAT)}
+                    format={() => `Жиры\n ${todayEated.f}/${DAYNORM.DAYFAT}`}
                 />
                 <Progress
                     type="circle"
                     strokeColor="red"
-                    percent={setPercent(eatedC, DAYCARB)}
-                    format={() => `Углеводы\n ${eatedC}/${DAYCARB}`}
+                    size={70}
+                    percent={setPercent(todayEated.c, DAYNORM.DAYCARB)}
+                    format={() =>
+                        `Углеводы\n ${todayEated.c}/${DAYNORM.DAYCARB}`
+                    }
                 />
                 <Progress
                     type="circle"
                     strokeColor="purple"
-                    percent={setPercent(eatedKK, DAYKKAL)}
-                    format={() => `Ккал\n ${eatedKK}/${DAYKKAL}`}
+                    size={70}
+                    percent={setPercent(todayEated.kk, DAYNORM.DAYKKAL)}
+                    format={() => `Ккал\n ${todayEated.kk}/${DAYNORM.DAYKKAL}`}
                 />
             </Space>
         </ConfigProvider>

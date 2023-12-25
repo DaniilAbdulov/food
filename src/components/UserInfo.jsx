@@ -4,7 +4,7 @@ import { Flex, Space, Typography } from "antd";
 const { Text } = Typography;
 export const UserInfo = observer(() => {
     return (
-        <Flex vertical align="start">
+        <Flex vertical>
             <Text strong>Информация о пользователе</Text>
             <Text>Абдулов Даниил Билалович</Text>
             <Text>Рост: 176 см</Text>
