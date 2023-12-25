@@ -1,0 +1,1 @@
+export const productsCategories = [{id:1,name:"Мясо"},{id:2,name:"Яйца"},{id:3,name:"Крупы"},]
