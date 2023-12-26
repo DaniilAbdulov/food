@@ -9,7 +9,7 @@ export const Home = observer(() => {
     return (
         <Content>
             <Flex align="center" justify="center" vertical>
-                <UserInfo />
+                //<UserInfo />
                 <ProgressBar />
                 <FoodList />
             </Flex>
