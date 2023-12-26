@@ -38,7 +38,7 @@ export const FoodRow = observer(() => {
                     <MySelect />
                 </Form.Item>
                 <Form.Item name="grams">
-                    <Slider step={10} min={0} max={500} />
+                    <Slider step={5} min={0} max={500} />
                 </Form.Item>
                 <Form.Item style={{ textAlign: "center" }}>
                     <Button type="primary" htmlType="submit">
