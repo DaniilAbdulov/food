@@ -1,7 +1,6 @@
 import { ConfigProvider, Progress, Space } from "antd";
 import { observer } from "mobx-react-lite";
 import { eating } from "../store/eating";
-import { useEffect } from "react";
 export const ProgressBar = observer(() => {
     const todayEated = eating.eatedPFCK;
     const DAYNORM = eating.DAYNORM;

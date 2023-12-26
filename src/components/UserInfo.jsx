@@ -1,5 +1,5 @@
 import { observer } from "mobx-react-lite";
-import { Flex, Space, Typography } from "antd";
+import { Flex, Typography } from "antd";
 
 const { Text } = Typography;
 export const UserInfo = observer(() => {
