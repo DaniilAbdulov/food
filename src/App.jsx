@@ -18,7 +18,7 @@ const contentStyle = {
     maxWidth: "1200px",
     margin: "0 auto",
     padding: "10px 20px",
-    fontSize: "20px0",
+    fontSize: "20px",
 };
 
 const footerStyle = {
