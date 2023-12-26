@@ -54,6 +54,7 @@ export const products = [
         c: 2.5,
         kk: 254,
         category_id: 1,
+        price: 26,
     },
     {
         id: 7,
@@ -63,6 +64,7 @@ export const products = [
         c: 0,
         kk: 184,
         category_id: 1,
+        price: 26,
     },
     {
         id: 8,
@@ -72,6 +74,7 @@ export const products = [
         c: 0,
         kk: 220,
         category_id: 1,
+        price: 26,
     },
     {
         id: 9,
@@ -81,6 +84,7 @@ export const products = [
         c: 0,
         kk: 297,
         category_id: 1,
+        price: 37.9,
     },
     {
         id: 10,
@@ -225,6 +229,16 @@ export const products = [
         category_id: 8,
         price: 12.5,
     },
+    {
+        id: 26,
+        title: "Мёд",
+        p: 0.3,
+        f: 0,
+        c: 82.4,
+        kk: 304,
+        category_id: 10,
+        price: 300,
+    },
 ];
 
 // export const productsCategories = [
@@ -237,4 +251,5 @@ export const products = [
 //     { id: 7, name: "Овощи" },
 //     { id: 8, name: "Мучные изделия" },
 //     { id: 9, name: "Рыба" },
+//     { id: 10, name: "Остальное" },
 // ];
