@@ -1,6 +1,7 @@
 import { ConfigProvider, Progress, Space } from "antd";
 import { observer } from "mobx-react-lite";
 import { eating } from "../store/eating";
+import Statistic from "antd/es/statistic/Statistic";
 export const ProgressBar = observer(() => {
     const todayEated = eating.eatedPFCK;
     const DAYNORM = eating.DAYNORM;
@@ -52,6 +53,7 @@ export const ProgressBar = observer(() => {
                     format={() => `Ккал\n ${todayEated.kk}/${DAYNORM.DAYKKAL}`}
                 />
             </Space>
+            <Statistic title="Стоимость сьеденного" value={eating.eatedPrice} />
         </ConfigProvider>
     );
 });

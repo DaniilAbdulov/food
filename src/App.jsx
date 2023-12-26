@@ -35,11 +35,11 @@ export const App = () => (
     <BrowserRouter>
         <Flex>
             <Layout style={layoutStyle}>
-                <Header style={headerStyle}>Header</Header>
+                <Header style={headerStyle}></Header>
                 <Content style={contentStyle}>
                     <Router />
                 </Content>
-                <Footer style={footerStyle}>Footer</Footer>
+                <Footer style={footerStyle}></Footer>
             </Layout>
         </Flex>
     </BrowserRouter>

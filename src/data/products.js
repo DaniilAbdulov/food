@@ -7,6 +7,7 @@ export const products = [
         c: 0.83,
         kk: 196,
         category_id: 2,
+        price: 26,
     },
     {
         id: 2,
@@ -16,6 +17,7 @@ export const products = [
         c: 1.1,
         kk: 155,
         category_id: 2,
+        price: 26,
     },
     {
         id: 3,
@@ -127,15 +129,15 @@ export const products = [
         kk: 158,
         category_id: 8,
     },
-    //капучино на 100 грамм, но порция всегда будет 200
     {
         id: 17,
-        title: "капучино",
+        title: "Капучино",
         p: 2.25,
         f: 2.4,
         c: 3.5,
         kk: 45,
         category_id: 5,
+        price: 8,
     },
     {
         id: 18,
@@ -145,6 +147,7 @@ export const products = [
         c: 3.4,
         kk: 204,
         category_id: 4,
+        price: 20,
     },
     { id: 19, title: "Бананы", p: 1, f: 0.3, c: 23, kk: 89, category_id: 6 },
     {
@@ -173,6 +176,15 @@ export const products = [
         c: 3.89,
         kk: 18,
         category_id: 7,
+    },
+    {
+        id: 23,
+        title: "Сало свиное (без прослойки)",
+        p: 2.92,
+        f: 88.69,
+        c: 0,
+        kk: 812,
+        category_id: 1,
     },
 ];
 

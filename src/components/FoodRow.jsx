@@ -16,6 +16,7 @@ export const FoodRow = observer(() => {
             setDisabled(true);
         }
     };
+
     const [form] = Form.useForm();
     return (
         <ConfigProvider

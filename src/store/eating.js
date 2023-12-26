@@ -19,18 +19,21 @@ class Eating {
         c: 0,
         kk: 0,
     };
+    eatedPrice = 0;
     addToEating(obj) {
         this.eatedFoods.push(obj);
-        this.clearEatedPFC();
+        this.clearEatedPFCnPrice();
         this.setPFCK();
+        this.setPrice();
     }
-    clearEatedPFC() {
+    clearEatedPFCnPrice() {
         this.eatedPFCK = {
             p: 0,
             f: 0,
             c: 0,
             kk: 0,
         };
+        this.eatedPrice = 0;
     }
     setPFCK() {
         this.eatedFoods.forEach((item) => {
@@ -48,6 +51,16 @@ class Eating {
                 this.eatedPFCK.f += setGrams(product.f);
                 this.eatedPFCK.c += setGrams(product.c);
                 this.eatedPFCK.kk += setGrams(product.kk);
+            }
+        });
+    }
+    setPrice() {
+        this.eatedFoods.forEach((item) => {
+            const productId = parseInt(item.product_id);
+            const grams = item.grams;
+            const product = products.find((p) => p.id === productId);
+            if (product) {
+                this.eatedPrice += Math.round(product.price * (grams / 100));
             }
         });
     }
