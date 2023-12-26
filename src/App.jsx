@@ -27,7 +27,6 @@ const footerStyle = {
     backgroundColor: "#4096ff",
 };
 const layoutStyle = {
-    borderRadius: 8,
     overflow: "hidden",
     minHeight: "100vh",
 };
