@@ -40,8 +40,11 @@ class Eating {
             const grams = item.grams;
             const product = products.find((p) => p.id === productId);
             function setValue(val) {
-                const res = val * (grams / 100);
-                return Math.round(res);
+                const res = Math.round(val * (grams / 100));
+                if (!res) {
+                    return 0;
+                }
+                return res;
             }
             if (product) {
                 this.eatedPFCK.p += setValue(product.p);
