@@ -239,6 +239,16 @@ export const products = [
         category_id: 10,
         price: 300,
     },
+        {
+        id: 27,
+        title: "Финики",
+        p: 2,
+        f: 0.5,
+        c: 66.5,
+        kk: 274,
+        category_id: 6,
+        price: 250,
+    },
 ];
 
 // export const productsCategories = [
