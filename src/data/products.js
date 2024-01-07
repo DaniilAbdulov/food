@@ -247,7 +247,7 @@ export const products = [
         c: 66.5,
         kk: 274,
         category_id: 6,
-        price: 250,
+        price: 50,
     },
 ];
 
