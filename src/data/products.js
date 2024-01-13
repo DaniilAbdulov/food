@@ -249,6 +249,16 @@ export const products = [
         category_id: 6,
         price: 50,
     },
+     {
+        id: 28,
+        title: "Тунец консервированный",
+        p: 18.7,
+        f: 11.6,
+        c: 0,
+        kk: 189,
+        category_id: 9,
+        price: 75,
+    },
 ];
 
 // export const productsCategories = [
