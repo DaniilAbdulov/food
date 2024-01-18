@@ -259,6 +259,16 @@ export const products = [
         category_id: 9,
         price: 75,
     },
+        {
+        id: 29,
+        title: "USN Whey Protein ",
+        p:70,
+        f: 5.4,
+        c: 6.9,
+        kk: 1567,
+        category_id: 11,
+        price: 439,
+    },
 ];
 
 // export const productsCategories = [
@@ -272,4 +282,5 @@ export const products = [
 //     { id: 8, name: "Мучные изделия" },
 //     { id: 9, name: "Рыба" },
 //     { id: 10, name: "Остальное" },
+//{ id: 11, name: "Протеин" },
 // ];
