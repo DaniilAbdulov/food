@@ -9,4 +9,5 @@ export const productsCategories = [
     { id: 8, name: "Мучные изделия" },
     { id: 9, name: "Рыба" },
     { id: 10, name: "Остальное" },
+    { id: 11, name: "Протеин" },
 ];
