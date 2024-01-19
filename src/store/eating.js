@@ -6,8 +6,8 @@ class Eating {
     DAYNORM = {
         DAYPROTAINE: 106,
         DAYFAT: 94,
-        DAYCARB: 390,
-        DAYKKAL: 2846,
+        DAYCARB: 200,
+        DAYKKAL: 2000,
     };
     constructor() {
         makeAutoObservable(this);
