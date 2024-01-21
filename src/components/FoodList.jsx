@@ -13,7 +13,7 @@ export const FoodList = observer(() => {
       }
     }
     if(obj.isEmpty)return;
-    eating.addToEating(obj2);
+    eating.addToEating(obj);
     form.resetFields();
     window.scrollTo({
   top: 0,
