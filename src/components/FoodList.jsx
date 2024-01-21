@@ -47,6 +47,11 @@ export const FoodList = observer(() => {
           Съедено
         </Button>
       </Form.Item>
+            <Form.Item>
+        <Button htmlType="reset">
+          Сбросить
+        </Button>
+      </Form.Item>
     </Form>
   );
 });
