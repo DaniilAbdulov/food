@@ -12,7 +12,7 @@ export const FoodList = observer(() => {
         obj[key] = Number(values[key]);
       }
     }
-    if(obj.isEmpty)return;
+    //if(obj.isEmpty)return;
     eating.addToEating(obj);
     form.resetFields();
     window.scrollTo({
