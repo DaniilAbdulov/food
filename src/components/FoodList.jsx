@@ -14,6 +14,7 @@ export const FoodList = observer(() => {
     }
     eating.addToEating(obj2);
     form.resetFields();
+    window.scrollTo(0,0);
   };
 
   return (
