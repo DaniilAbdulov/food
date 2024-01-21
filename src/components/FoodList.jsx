@@ -6,12 +6,13 @@ import { products } from "../data/products";
 export const FoodList = observer(() => {
   const [form] = Form.useForm();
   const onFinish = (values) => {
-    const obj2 = {};
+    const obj = {};
     for (let key in values) {
       if (values[key] !== undefined) {
-        obj2[key] = Number(values[key]);
+        obj[key] = Number(values[key]);
       }
     }
+    if(obj.isEmpty)return;
     eating.addToEating(obj2);
     form.resetFields();
     window.scrollTo({
