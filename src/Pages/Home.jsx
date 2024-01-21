@@ -6,13 +6,13 @@ import { ProgressBar } from "../components/ProgressBar";
 import { FoodList } from "../components/FoodList";
 const { Content } = Layout;
 export const Home = observer(() => {
-    return (
-        <Content>
-            <Flex align="center" justify="center" vertical>
-                {/* <UserInfo /> */}
-                <ProgressBar />
-                <FoodList />
-            </Flex>
-        </Content>
-    );
+  return (
+    <Content>
+      <Flex align="center" justify="center" vertical>
+        {/* <UserInfo /> */}
+        <ProgressBar />
+        <FoodList />
+      </Flex>
+    </Content>
+  );
 });
