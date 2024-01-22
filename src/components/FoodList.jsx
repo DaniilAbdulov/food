@@ -43,7 +43,7 @@ export const FoodList = observer(() => {
               );
             })}
       </Row>
-      <div>
+      <span>
       <Form.Item>
         <Button type="primary" htmlType="submit">
           Съедено
@@ -54,7 +54,7 @@ export const FoodList = observer(() => {
           Сбросить
         </Button>
       </Form.Item>
-      </div>
+      </span>
     </Form>
   );
 });
