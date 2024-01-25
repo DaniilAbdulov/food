@@ -306,6 +306,17 @@ export const products = [
     price: 439,
     img: "https://i.pinimg.com/736x/6e/7d/a6/6e7da6b053c2a362a3000f79c6656953.jpg",
   },
+   {
+    id: 30,
+    title: "Куриное филе запеченное",
+    p: 30.54,
+    f: 3.17,
+    c: 0,
+    kk: 151,
+    category_id: 2,
+    price: 300,
+    img: "",
+  },
 ];
 
 // export const productsCategories = [
