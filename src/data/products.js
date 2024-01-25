@@ -314,7 +314,7 @@ export const products = [
     c: 0,
     kk: 151,
     category_id: 2,
-    price: 300,
+    price: 30,
     img: "",
   },
 ];
