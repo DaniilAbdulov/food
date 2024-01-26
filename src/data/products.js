@@ -317,6 +317,28 @@ export const products = [
     price: 30,
     img: "",
   },
+     {
+    id: 31,
+    title: "Творог прессованный 5%",
+    p: 12,
+    f: 5,
+    c: 3,
+    kk: 105,
+    category_id: 4,
+    price: 1,
+    img: "",
+  },
+     {
+    id: 32,
+    title: "Лаваш Армянский",
+    p: 6.9,
+    f: 1.1,
+    c: 44,
+    kk: 214,
+    category_id: 8,
+    price: 1,
+    img: "",
+  },
 ];
 
 // export const productsCategories = [
