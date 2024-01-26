@@ -339,6 +339,17 @@ export const products = [
     price: 1,
     img: "",
   },
+       {
+    id: 33,
+    title: "Свинина тушеная",
+    p: 29.2,
+    f: 8.31,
+    c: 0,
+    kk: 200,
+    category_id: 1,
+    price: 35,
+    img: "",
+  },
 ];
 
 // export const productsCategories = [
