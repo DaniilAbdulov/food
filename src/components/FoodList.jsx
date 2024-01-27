@@ -2,6 +2,7 @@ import { observer } from "mobx-react-lite";
 import { eating } from "../store/eating";
 import { Button, Col, Flex, Form, Image, InputNumber, Row } from "antd";
 import { products } from "../data/products";
+import { ImageLoader } from "./ImageLoader";
 
 export const FoodList = observer(() => {
   const [form] = Form.useForm();
@@ -32,7 +33,8 @@ export const FoodList = observer(() => {
                 <Col className="gutter-row" span={8} key={product.id}>
                   <Form.Item name={product.id}>
                     <Flex vertical align="center" gap="small" justify="start">
-                      <Image width={100} height={100} src={product.img} />
+                      <ImageLoader img={product.img} />
+                      {/* <Image width={100} height={100} src={product.img} /> */}
                       <InputNumber />
                       <p style={{ fontSize: "12px" }}>{product.title}</p>
                     </Flex>
