@@ -306,7 +306,7 @@ export const products = [
     price: 439,
     img: "https://i.pinimg.com/736x/6e/7d/a6/6e7da6b053c2a362a3000f79c6656953.jpg",
   },
-   {
+  {
     id: 30,
     title: "Куриное филе запеченное",
     p: 30.54,
@@ -315,9 +315,9 @@ export const products = [
     kk: 151,
     category_id: 2,
     price: 30,
-    img: "",
+    img: "https://fitaudit.ru/img/flist/104790.jpg",
   },
-     {
+  {
     id: 31,
     title: "Творог прессованный 5%",
     p: 12,
@@ -326,9 +326,9 @@ export const products = [
     kk: 105,
     category_id: 4,
     price: 1,
-    img: "",
+    img: "https://irecommend.ru/sites/default/files/imagecache/copyright1/user-images/313355/KxGWJzRthjp8TiGoR0vTSg.jpg",
   },
-     {
+  {
     id: 32,
     title: "Лаваш Армянский",
     p: 6.9,
@@ -337,9 +337,9 @@ export const products = [
     kk: 214,
     category_id: 8,
     price: 1,
-    img: "",
+    img: "https://sun9-78.userapi.com/impf/ASpSwwkO6zecySwOr9GFPPS1gpQDtFM_dOzi_A/Wru9mSnEgcc.jpg?size=450x299&quality=96&sign=17dfaef8d37b7c2ab34a9b08534bcd7b&c_uniq_tag=68le5RQlLZJacduoONqQ-m-TL6L8wAJQwMHuiPXhDrI&type=album",
   },
-       {
+  {
     id: 33,
     title: "Свинина тушеная",
     p: 29.2,
@@ -348,20 +348,20 @@ export const products = [
     kk: 200,
     category_id: 1,
     price: 35,
-    img: "",
+    img: "https://fitaudit.ru/img/flist/127638.jpg",
   },
 ];
 
 // export const productsCategories = [
-//     { id: 1, name: "Мясо" },
-//     { id: 2, name: "Яйца" },
-//     { id: 3, name: "Крупы" },
-//     { id: 4, name: "Молочная продукция" },
-//     { id: 5, name: "Напитки" },
-//     { id: 6, name: "Фрукты" },
-//     { id: 7, name: "Овощи" },
-//     { id: 8, name: "Мучные изделия" },
-//     { id: 9, name: "Рыба" },
-//     { id: 10, name: "Остальное" },
-//{ id: 11, name: "Протеин" },
+//   { id: 1, name: "Мясо" },
+//   { id: 2, name: "Яйца" },
+//   { id: 3, name: "Крупы" },
+//   { id: 4, name: "Молочная продукция" },
+//   { id: 5, name: "Напитки" },
+//   { id: 6, name: "Фрукты" },
+//   { id: 7, name: "Овощи" },
+//   { id: 8, name: "Мучные изделия" },
+//   { id: 9, name: "Рыба" },
+//   { id: 10, name: "Остальное" },
+//   { id: 11, name: "Протеин" },
 // ];

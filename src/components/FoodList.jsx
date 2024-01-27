@@ -1,6 +1,15 @@
 import { observer } from "mobx-react-lite";
 import { eating } from "../store/eating";
-import { Button, Col, Flex, Form, Image, InputNumber, Row } from "antd";
+import {
+  Button,
+  Col,
+  Divider,
+  Flex,
+  Form,
+  Image,
+  InputNumber,
+  Row,
+} from "antd";
 import { products } from "../data/products";
 
 export const FoodList = observer(() => {
@@ -16,11 +25,10 @@ export const FoodList = observer(() => {
     eating.addToEating(obj);
     form.resetFields();
     window.scrollTo({
-  top: 0,
-  left: 0,
-  behavior: "smooth",
-});
-
+      top: 0,
+      left: 0,
+      behavior: "smooth",
+    });
   };
 
   return (
@@ -43,18 +51,11 @@ export const FoodList = observer(() => {
               );
             })}
       </Row>
-      <span>
       <Form.Item>
         <Button type="primary" htmlType="submit">
           Съедено
         </Button>
       </Form.Item>
-            <Form.Item>
-        <Button htmlType="reset">
-          Сбросить
-        </Button>
-      </Form.Item>
-      </span>
     </Form>
   );
 });

@@ -4,10 +4,10 @@ import { makeAutoObservable } from "mobx";
 import { products } from "../data/products.js";
 class Eating {
   DAYNORM = {
-    DAYPROTAINE: 106,
-    DAYFAT: 94,
-    DAYCARB: 200,
-    DAYKKAL: 2000,
+    p: 106,
+    f: 94,
+    c: 200,
+    kk: 2000,
   };
   constructor() {
     makeAutoObservable(this);
