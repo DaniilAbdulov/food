@@ -1,15 +1,6 @@
 import { observer } from "mobx-react-lite";
 import { eating } from "../store/eating";
-import {
-  Button,
-  Col,
-  Divider,
-  Flex,
-  Form,
-  Image,
-  InputNumber,
-  Row,
-} from "antd";
+import { Button, Col, Flex, Form, Image, InputNumber, Row } from "antd";
 import { products } from "../data/products";
 
 export const FoodList = observer(() => {
@@ -21,7 +12,6 @@ export const FoodList = observer(() => {
         obj[key] = Number(values[key]);
       }
     }
-    //if(obj.isEmpty)return;
     eating.addToEating(obj);
     form.resetFields();
     window.scrollTo({

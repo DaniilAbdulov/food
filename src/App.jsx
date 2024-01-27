@@ -1,5 +1,5 @@
 import React from "react";
-import { Layout, Flex } from "antd";
+import { Layout } from "antd";
 import { Router } from "./Router/Router";
 import { BrowserRouter } from "react-router-dom";
 const { Header, Footer, Content } = Layout;
@@ -32,14 +32,12 @@ const layoutStyle = {
 };
 export const App = () => (
   <BrowserRouter>
-    <Flex>
-      <Layout style={layoutStyle}>
-        <Header style={headerStyle}></Header>
-        <Content style={contentStyle}>
-          <Router />
-        </Content>
-        <Footer style={footerStyle}></Footer>
-      </Layout>
-    </Flex>
+    <Layout style={layoutStyle}>
+      <Header style={headerStyle}></Header>
+      <Content style={contentStyle}>
+        <Router />
+      </Content>
+      <Footer style={footerStyle}></Footer>
+    </Layout>
   </BrowserRouter>
 );
