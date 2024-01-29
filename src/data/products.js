@@ -350,6 +350,17 @@ export const products = [
     price: 35,
     img: "https://fitaudit.ru/img/flist/127638.jpg",
   },
+  {
+    id: 34,
+    title: "Греческий йогурт",
+    p: 8,
+    f: 2,
+    c: 3,
+    kk: 66,
+    category_id: 4,
+    price: 39,
+    img: "https://avatars.mds.yandex.net/get-mpic/10933212/2a0000018a9ad939ff78c3e827b01786d310/300x300",
+  },
 ];
 
 // export const productsCategories = [
