@@ -361,6 +361,17 @@ export const products = [
     price: 39,
     img: "https://avatars.mds.yandex.net/get-mpic/10933212/2a0000018a9ad939ff78c3e827b01786d310/300x300",
   },
+    {
+    id: 35,
+    title: "Авокадо",
+    p: 2,
+    f: 14.6,
+    c: 8.53,
+    kk: 160,
+    category_id: 7,
+    price: 1,
+    img: "",
+  },
 ];
 
 // export const productsCategories = [
