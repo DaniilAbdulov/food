@@ -372,6 +372,17 @@ export const products = [
     price: 1,
     img: "",
   },
+  {
+    id: 36,
+    title: "Пюре картофельное",
+    p: 1.86,
+    f: 4.22,
+    c: 16.81,
+    kk: 113,
+    category_id: 10,
+    price: 1,
+    img: "https://avatars.mds.yandex.net/i?id=f39e54b16fe2e88d6079b1000c12d874_l-9456276-images-thumbs&n=13",
+  },
 ];
 
 // export const productsCategories = [
