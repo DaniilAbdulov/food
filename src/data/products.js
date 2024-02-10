@@ -383,6 +383,17 @@ export const products = [
     price: 1,
     img: "https://avatars.mds.yandex.net/i?id=f39e54b16fe2e88d6079b1000c12d874_l-9456276-images-thumbs&n=13",
   },
+  {
+    id: 37,
+    title: "Домашний бургер",
+    p: 33,
+    f: 35,
+    c: 36,
+    kk: 597,
+    category_id: 10,
+    price: 1,
+    img: "https://resize.yandex.net/imgs_touch?key=e92223490a27af1f0aea2f1580d0b139&url=https%3A%2F%2Fmykaleidoscope.ru%2Fx%2Fuploads%2Fposts%2F2022-09%2F1663805818_27-mykaleidoscope-ru-p-burgeri-iz-makdonaldsa-yeda-instagram-29.png&width=1125&height=1125&typemap=png%3Apng%3B*%3Ajpg&quality=60&use-cache-headers=yes&crop=no&enlarge=no",
+  },
 ];
 
 // export const productsCategories = [
@@ -398,3 +409,4 @@ export const products = [
 //   { id: 10, name: "Остальное" },
 //   { id: 11, name: "Протеин" },
 // ];
+
